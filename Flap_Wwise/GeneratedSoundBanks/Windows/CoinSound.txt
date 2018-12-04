@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3603273110	Coin			\Default Work Unit\Coin	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	898552498	Coin_Sound	E:\Documents\My Documents\Flap\Flap\Flap_Wwise\.cache\Windows\SFX\Coin_Sound_187912C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin_Sound		179928
+

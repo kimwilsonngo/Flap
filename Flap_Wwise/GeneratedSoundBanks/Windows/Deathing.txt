@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	779278001	Death			\Default Work Unit\Death	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	718001143	Mario_Death_Sound_Effect-mBgcKeFy_Vo	E:\Documents\My Documents\Flap\Flap\Flap_Wwise\.cache\Windows\SFX\Mario_Death_Sound_Effect-mBgcKeFy_Vo_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mario_Death_Sound_Effect-mBgcKeFy_Vo		479296
+

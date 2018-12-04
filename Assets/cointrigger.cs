@@ -8,7 +8,8 @@ public class cointrigger : MonoBehaviour {
 	// Use this for initialization
 
 	void OnTriggerEnter(Collider player){
-		ScoreScript.scoreValue +=1;
+        AkSoundEngine.PostEvent("Coin", gameObject);
+        ScoreScript.scoreValue +=1;
 		Debug.Log("Score is " + score);
 		Destroy(this.gameObject);
 	}

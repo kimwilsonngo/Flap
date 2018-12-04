@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>E:\Documents\My Documents\Flap\Flap\Flap_Wwise\</ProjectRoot>
+		<SourceFilesRoot>E:\Documents\My Documents\Flap\Flap\Flap_Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Documents\My Documents\Flap\Flap\Flap_Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Documents\My Documents\Flap\Flap\Flap_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="86548951" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Deathing</ObjectPath>
+			<ShortName>Deathing</ShortName>
+			<Path>Deathing.bnk</Path>
+			<IncludedEvents>
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Death"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="718001143" Language="SFX">
+					<ShortName>Mario_Death_Sound_Effect-mBgcKeFy_Vo.wav</ShortName>
+					<Path>SFX\Mario_Death_Sound_Effect-mBgcKeFy_Vo_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1423191956" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Flapping</ObjectPath>
+			<ShortName>Flapping</ShortName>
+			<Path>Flapping.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2931383628" Name="Flap" ObjectPath="\Events\Default Work Unit\Flap"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="249355518" Language="SFX">
+					<ShortName>Mario Jump - Gaming Sound Effect (HD).wav</ShortName>
+					<Path>SFX\Mario Jump - Gaming Sound Effect (HD)_B3C52D44.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1695690031" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Objects</ObjectPath>
+			<ShortName>Objects</ShortName>
+			<Path>Objects.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3603273110" Name="Coin" ObjectPath="\Events\Default Work Unit\Coin"/>
+				<Event Id="1843860801" Name="Pipe" ObjectPath="\Events\Default Work Unit\Pipe"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="369115211" Language="SFX">
+					<ShortName>Redbone.wav</ShortName>
+					<Path>SFX\Redbone_F17FB28C.wem</Path>
+				</File>
+				<File Id="898552498" Language="SFX">
+					<ShortName>Coin_Sound.wav</ShortName>
+					<Path>SFX\Coin_Sound_70E16DAB.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

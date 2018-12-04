@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7603650D-D78F-44DA-89C1-FAAC9744AE56}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7603650D-D78F-44DA-89C1-FAAC9744AE56}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Flapping" ID="{F73E6DFA-BC8E-4BB0-9AA0-CFE2F7291466}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Flap" ID="{0BB5CA90-85B6-4B95-AA68-18B43ECD162A}" WorkUnitID="{11D9B6DF-0681-4620-8AF7-F38ECE4DC9F6}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Deathing" ID="{6AD61ADE-DCBF-4BA3-A88C-B72DC954943F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Death" ID="{18A81E4A-B8C2-4BD0-9B75-902E395C69E6}" WorkUnitID="{11D9B6DF-0681-4620-8AF7-F38ECE4DC9F6}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Objects" ID="{268F6736-D2B8-4882-AE6C-46AD2C5CA708}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Coin" ID="{F67A5BC0-726F-4478-AF21-AAD9A8B3BF99}" WorkUnitID="{11D9B6DF-0681-4620-8AF7-F38ECE4DC9F6}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pipe" ID="{02A888EB-7593-469D-895E-7299DE39C031}" WorkUnitID="{11D9B6DF-0681-4620-8AF7-F38ECE4DC9F6}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

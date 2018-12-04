@@ -19,6 +19,7 @@ public class deathTest : MonoBehaviour
 
     public void Death()
     {
+        AkSoundEngine.PostEvent("Death", gameObject);
         deathscore.death();
         Debug.Log("lol");
     }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="601859981">
+	<Platform GUID="{D64F13FC-76C9-406B-8305-33E4385B3C5E}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="CoinSound" Hash="309380743" Timestamp="1542433117"/>
+				<File Name="Deathing" Hash="2255939659" Timestamp="1542433117"/>
+				<File Name="Flapping" Hash="3366129134" Timestamp="1542533092"/>
+				<File Name="Init" Hash="4221927926" Timestamp="1541920702"/>
+				<File Name="Objects" Hash="3122171855" Timestamp="1542606290"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="786960856" Timestamp="1542606290"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{11D9B6DF-0681-4620-8AF7-F38ECE4DC9F6}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{11D9B6DF-0681-4620-8AF7-F38ECE4DC9F6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Flap" ID="{0BB5CA90-85B6-4B95-AA68-18B43ECD162A}">
+					<ChildrenList>
+						<Action Name="" ID="{C9E466F0-9F30-4E0E-BA26-11E4FE9FFA75}" ShortID="471893333">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mario Jump - Gaming Sound Effect (HD)" ID="{CA20C333-56F6-4A17-ADDD-2B98E25B03A7}" WorkUnitID="{F29C1A60-B59C-4EA0-9880-37B1D91EEB29}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death" ID="{18A81E4A-B8C2-4BD0-9B75-902E395C69E6}">
+					<ChildrenList>
+						<Action Name="" ID="{60370252-995B-49C2-8957-F827A0E7DDF4}" ShortID="197010451">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mario_Death_Sound_Effect-mBgcKeFy_Vo" ID="{8DFE72F8-D15B-4F2A-A448-6DA28F425786}" WorkUnitID="{F29C1A60-B59C-4EA0-9880-37B1D91EEB29}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Coin" ID="{F67A5BC0-726F-4478-AF21-AAD9A8B3BF99}">
+					<ChildrenList>
+						<Action Name="" ID="{DE143BAE-6CF4-45B9-AF2D-62E2AE959374}" ShortID="964360435">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coin_Sound" ID="{A5068646-B547-44D8-B2F8-87050233AE99}" WorkUnitID="{F29C1A60-B59C-4EA0-9880-37B1D91EEB29}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pipe" ID="{02A888EB-7593-469D-895E-7299DE39C031}">
+					<ChildrenList>
+						<Action Name="" ID="{EDF427A9-EA9C-44F6-A36A-BB3920D19755}" ShortID="1033746638">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Redbone" ID="{471114F0-56A1-4080-B12F-BFB0B6628368}" WorkUnitID="{F29C1A60-B59C-4EA0-9880-37B1D91EEB29}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

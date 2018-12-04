@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1843860801	Pipe			\Default Work Unit\Pipe	
+	3603273110	Coin			\Default Work Unit\Coin	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	369115211	Redbone	E:\Documents\My Documents\Flap\Flap\Flap_Wwise\.cache\Windows\SFX\Redbone_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Redbone		57684032
+	898552498	Coin_Sound	E:\Documents\My Documents\Flap\Flap\Flap_Wwise\.cache\Windows\SFX\Coin_Sound_70E16DAB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin_Sound		179928
+

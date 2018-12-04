@@ -37,10 +37,13 @@ public class flightnew : MonoBehaviour
     {
         while (Application.isPlaying)
         {
+            //temporary because...
+            start = true;
+            //this shit never starts properly
             if (start == false)
             {
                 rb.velocity = new Vector3(0, 0, 0);
-                if (Myo1.accelerometer.y >= 1 || Myo2.accelerometer.y >= 1)
+                if (Myo1.accelerometer.y >= 1 || Myo2.accelerometer.y >= 1 || Input.GetKey(KeyCode.UpArrow))
                     start = true;
                 else
                     PrefabUtility.ResetToPrefabState(Selection.activeGameObject);
@@ -50,23 +53,29 @@ public class flightnew : MonoBehaviour
             {
                 AudioSource audio = GetComponent<AudioSource>();
 
-                if (Myo1.accelerometer.y >= 1 && Myo2.accelerometer.y < 1)
+                if (Myo1.accelerometer.y >= 1 && Myo2.accelerometer.y < 1 || Input.GetKey(KeyCode.UpArrow))
                 {
                     rb.velocity = new Vector3(0, upwardVelocity, forwarfVelocity);
-                    audio.Play();
-                    audio.Play(110000);
+                    //audio.Play();
+                    //audio.Play(110000);
+                    AkSoundEngine.PostEvent("Flap", gameObject);
+                    Debug.Log("UpdateArrow 1"); 
                 }
-                else if (Myo1.accelerometer.y < 1 && Myo2.accelerometer.y >= 1)
+                else if (Myo1.accelerometer.y < 1 && Myo2.accelerometer.y >= 1 || Input.GetKey(KeyCode.UpArrow))
                 {
                     rb.velocity = new Vector3(0, upwardVelocity, forwarfVelocity);
-                    audio.Play();
-                    audio.Play(110000);
+                    //audio.Play();
+                    //audio.Play(110000);
+                    //AkSoundEngine.PostEvent("Flap", gameObject);
+                    Debug.Log("UpdateArrow 2");
                 }
-                else if (Myo1.accelerometer.y >= 1 && Myo2.accelerometer.y >= 1)
+                else if (Myo1.accelerometer.y >= 1 && Myo2.accelerometer.y >= 1 || Input.GetKey(KeyCode.UpArrow))
                 {
                     rb.velocity = new Vector3(0, 2 * upwardVelocity, forwarfVelocity);
-                    audio.Play();
-                    audio.Play(110000);
+                    //audio.Play();
+                    //audio.Play(110000);
+                    //AkSoundEngine.PostEvent("Flap", gameObject);
+                    Debug.Log("UpdateArrow 3");
                 }
                 else
                 {
@@ -77,7 +86,7 @@ public class flightnew : MonoBehaviour
                     rb.AddForce(0, -5, 0);
                 }
             }
-            yield return new WaitForSeconds(0.0001f);
+            yield return new WaitForSeconds(0.1f);
 
             //if (!isJumping && (Myo1.accelerometer.y >= 1 || Input.GetKey(KeyCode.Return)))
             //{

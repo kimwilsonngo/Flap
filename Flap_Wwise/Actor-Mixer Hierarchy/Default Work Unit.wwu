@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F29C1A60-B59C-4EA0-9880-37B1D91EEB29}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{F29C1A60-B59C-4EA0-9880-37B1D91EEB29}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Mario Jump - Gaming Sound Effect (HD)" ID="{CA20C333-56F6-4A17-ADDD-2B98E25B03A7}" ShortID="927818856">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C749B6F5-0112-48E7-AAFA-BB6297A1D829}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EECBF869-1C75-4A3D-B57D-39E91DB4D085}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mario Jump - Gaming Sound Effect (HD)" ID="{677A026C-6B5B-4F20-886E-A108BB8E52A1}" ShortID="249355518">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="9.80369290573373E-02"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.502753482345319"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.10103012633625"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mario Jump - Gaming Sound Effect (HD).wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mario Jump - Gaming Sound Effect (HD)" ID="{677A026C-6B5B-4F20-886E-A108BB8E52A1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Mario_Death_Sound_Effect-mBgcKeFy_Vo" ID="{8DFE72F8-D15B-4F2A-A448-6DA28F425786}" ShortID="612729593">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C749B6F5-0112-48E7-AAFA-BB6297A1D829}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EECBF869-1C75-4A3D-B57D-39E91DB4D085}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mario_Death_Sound_Effect-mBgcKeFy_Vo" ID="{C54F1139-33C1-41EE-AB60-09E02AE227DD}" ShortID="718001143">
+							<Language>SFX</Language>
+							<AudioFile>Mario_Death_Sound_Effect-mBgcKeFy_Vo.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mario_Death_Sound_Effect-mBgcKeFy_Vo" ID="{C54F1139-33C1-41EE-AB60-09E02AE227DD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Coin_Sound" ID="{A5068646-B547-44D8-B2F8-87050233AE99}" ShortID="955106096">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C749B6F5-0112-48E7-AAFA-BB6297A1D829}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EECBF869-1C75-4A3D-B57D-39E91DB4D085}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Coin_Sound" ID="{B0C3CD5C-0D54-40C8-916D-ABBDBC04F0D3}" ShortID="898552498">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.317589893100097"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.328733398121153"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.34836410754778"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Coin_Sound.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Coin_Sound" ID="{B0C3CD5C-0D54-40C8-916D-ABBDBC04F0D3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Redbone" ID="{471114F0-56A1-4080-B12F-BFB0B6628368}" ShortID="918241197">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Pipes" ID="{C602DA0F-F0C7-4A1D-B6AA-FCAA967C71D4}" WorkUnitID="{A94A571B-2933-42C1-8481-39E077395F0B}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C749B6F5-0112-48E7-AAFA-BB6297A1D829}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EECBF869-1C75-4A3D-B57D-39E91DB4D085}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Redbone" ID="{8628A442-75FB-4400-BFE3-ADF4BDA13D4D}" ShortID="369115211">
+							<Language>SFX</Language>
+							<AudioFile>Redbone.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Redbone" ID="{8628A442-75FB-4400-BFE3-ADF4BDA13D4D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

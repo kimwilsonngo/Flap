@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2931383628	Flap			\Default Work Unit\Flap	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	249355518	Mario Jump - Gaming Sound Effect (HD)	E:\Documents\My Documents\Flap\Flap\Flap_Wwise\.cache\Windows\SFX\Mario Jump - Gaming Sound Effect (HD)_B3C52D44.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mario Jump - Gaming Sound Effect (HD)		105600
+
