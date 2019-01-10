@@ -12,9 +12,13 @@ This game was created by a team at BeachHacks 2018, California State University 
 
 This team happened to be close friends of mine in Theta Tau, our engineering fraternity. They graciously allowed me to continue development of their game. In doing so, I sought to refine the controls, physics, and added sound in order to turn a 24 hour coding project to a viable product. 
 
+## Why?
+I've always wanted to develop video games, but it was "never the right time," since life can be busy. I decided to put my foot down amongst all the craziness in life and put my effort towards making VR Flappy Bird to gain experience in game development and to have a bit of fun.
+
 ## Technicalities
 * Wwise - An audio middleware software by Audiokinetic for interactive media and video games.
 * Myo - A company that makes arm bands that uses a 9-axis IMU to sense motion. We make the user wear these to control the bird.
+
 
 ## Acknowledgments
 
